@@ -97,7 +97,7 @@ def handle(path,path1):
                     b.append(c2)
                     subOD.append((hebingf[b[0]]))  # 添加第二个元素，后车
                 # 如果后方是空，前方不是空，就后方的添加None，前方添加车辆
-                elif temf and len(temf) == 1:
+                elif teml and len(temf) == 1:
                     hebingl = dict(zip(teml, temldic))  # 存储前方车辆的字典
                     for ii in hebingl.keys():  # 遍历距前方车辆的距离
                         a1.append(ii)
